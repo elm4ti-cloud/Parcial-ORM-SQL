@@ -168,7 +168,6 @@ Debes ejecutar el programa y demostrar el funcionamiento de cada una de las oper
 <img width="495" height="438" alt="image" src="https://github.com/user-attachments/assets/be6940b5-a9de-46b4-bfa4-ad9023c525eb" />
 
 
-![Registro de zapatos](evidencias/registro.png)
 
 ### Prueba 2. Listar inventario
 
@@ -180,7 +179,6 @@ Debes ejecutar el programa y demostrar el funcionamiento de cada una de las oper
 <img width="474" height="182" alt="image" src="https://github.com/user-attachments/assets/d495e48c-f540-4c0f-950a-9d9de3c257e0" />
 
 
-![Listado de zapatos](evidencias/listado.png)
 
 ### Prueba 3. Buscar por ID
 
