@@ -160,7 +160,7 @@ Debes ejecutar el programa y demostrar el funcionamiento de cada una de las oper
 ### Prueba 1. Registrar zapatos
 
 - **Acción realizada:** registrar dos zapatos.
-- **Datos utilizados:** [Indicar modelo, talla y precio].
+- **Datos utilizados:** Modelo, talla y precio.
 - **Resultado obtenido:** Se registraron correctamente los dos zapatos.
 
 **Evidencia:**
@@ -214,11 +214,11 @@ Debes ejecutar el programa y demostrar el funcionamiento de cada una de las oper
 ### Prueba 6. Comprobar persistencia
 
 - **Acción realizada:** cerrar y ejecutar nuevamente el programa.
-- **Resultado obtenido:** [Explicar cuáles registros permanecieron guardados].
+- **Resultado obtenido:** Se guardó el zapato de ID 2.
 
 **Evidencia:**
 
-![Persistencia de datos](evidencias/persistencia.png)
+<img width="493" height="320" alt="image" src="https://github.com/user-attachments/assets/854f4642-8f60-4a74-b41c-6bfe8e124193" />
 
 ### Pruebas con registros inexistentes
 
