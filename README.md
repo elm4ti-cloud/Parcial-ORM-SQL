@@ -235,13 +235,16 @@ Ejecuta las operaciones de buscar, actualizar y eliminar utilizando un ID que no
 Responde brevemente:
 
    1. ¿Qué aprendiste al implementar las operaciones CRUD utilizando SQLAlchemy?
-   Aprendizaje con SQLAlchemy: Facilitó enormemente la interacción con la base de datos al abstraer las sentencias SQL en clases y objetos de Python.
+
+      Facilitó enormemente la interacción con la base de datos al abstraer las sentencias SQL en clases y objetos de Python.
 
    2. ¿Qué diferencia identificaste entre trabajar con objetos Python y escribir sentencias SQL directamente?
-   Objetos vs. SQL manual: Trabajar con objetos permite un enfoque más intuitivo, orientado al dominio del problema, reduciendo errores de sintaxis SQL y facilitando la manipulación de los datos.
+
+      Trabajar con objetos permite un enfoque más intuitivo, orientado al dominio del problema, reduciendo errores de sintaxis SQL y facilitando la manipulación de los datos.
 
    3. ¿Cuál fue la principal dificultad durante el desarrollo y cómo la solucionaste?
-   Dificultades: Asegurar la correcta gestión del ciclo de vida de las sesiones mediante el uso del gestor de contexto (with Session(engine) as session:) para evitar fugas de conexiones y asegurar los commits oportunos.
+
+      Asegurar la correcta gestión del ciclo de vida de las sesiones mediante el uso del gestor de contexto (with Session(engine) as session:) para evitar fugas de conexiones y asegurar los commits oportunos.
 
 
 
