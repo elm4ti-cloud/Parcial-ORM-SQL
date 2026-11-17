@@ -161,49 +161,57 @@ Debes ejecutar el programa y demostrar el funcionamiento de cada una de las oper
 
 - **Acción realizada:** registrar dos zapatos.
 - **Datos utilizados:** [Indicar modelo, talla y precio].
-- **Resultado obtenido:** [Explicar qué ocurrió].
+- **Resultado obtenido:** Se registraron correctamente los dos zapatos.
 
 **Evidencia:**
+
+<img width="495" height="438" alt="image" src="https://github.com/user-attachments/assets/be6940b5-a9de-46b4-bfa4-ad9023c525eb" />
+
 
 ![Registro de zapatos](evidencias/registro.png)
 
 ### Prueba 2. Listar inventario
 
 - **Acción realizada:** consultar todos los zapatos.
-- **Resultado obtenido:** [Explicar qué mostró el programa].
+- **Resultado obtenido:** La lista de los zapatos.
 
 **Evidencia:**
+
+<img width="474" height="182" alt="image" src="https://github.com/user-attachments/assets/d495e48c-f540-4c0f-950a-9d9de3c257e0" />
+
 
 ![Listado de zapatos](evidencias/listado.png)
 
 ### Prueba 3. Buscar por ID
 
-- **ID utilizado:** [Indicar ID].
-- **Resultado obtenido:** [Explicar qué ocurrió].
+- **ID utilizado:** 1.
+- **Resultado obtenido:** Se muestra el primer zapato agregado.
 
 **Evidencia:**
 
-![Búsqueda de zapatos](evidencias/busqueda.png)
+<img width="465" height="190" alt="image" src="https://github.com/user-attachments/assets/288af2b2-7970-4a75-b07a-5566dde47e67" />
+
 
 ### Prueba 4. Actualizar precio
 
-- **Zapato seleccionado:** [Indicar].
-- **Precio anterior:** [Indicar].
-- **Precio nuevo:** [Indicar].
-- **Resultado obtenido:** [Explicar qué ocurrió].
+- **Zapato seleccionado:** ID: 1.
+- **Precio anterior:** 100000.
+- **Precio nuevo:** 150000.
+- **Resultado obtenido:** Se actualizó correctamente el precio.
 
 **Evidencia:**
 
-![Actualización de precio](evidencias/actualizacion.png)
+<img width="512" height="389" alt="image" src="https://github.com/user-attachments/assets/abec712d-68bc-4edf-9fc9-f58941e40a3f" />
+
 
 ### Prueba 5. Eliminar zapato
 
-- **ID eliminado:** [Indicar ID].
-- **Resultado obtenido:** [Explicar cómo verificaste la eliminación].
+- **ID eliminado:** 1.
+- **Resultado obtenido:** Verificando la lista.
 
 **Evidencia:**
 
-![Eliminación de zapato](evidencias/eliminacion.png)
+<img width="478" height="349" alt="image" src="https://github.com/user-attachments/assets/5b75e009-9e8a-464b-bba5-1048360a0b5e" />
 
 ### Prueba 6. Comprobar persistencia
 
@@ -220,17 +228,23 @@ Ejecuta las operaciones de buscar, actualizar y eliminar utilizando un ID que no
 
 | Operación | ¿Qué sucedió? |
 |---|---|
-| Buscar ID inexistente | [Respuesta] |
-| Actualizar ID inexistente | [Respuesta] |
-| Eliminar ID inexistente | [Respuesta] |
+| Buscar ID inexistente | El programa indicó "Zapato no encontrado" al retornar None. |
+| Actualizar ID inexistente | La función retornó False y el menú mostró que el zapato no fue hallado |
+| Eliminar ID inexistente | Retornó False ya que el ID no existe|
 
 ## 7. Conclusiones
 
 Responde brevemente:
 
-1. ¿Qué aprendiste al implementar las operaciones CRUD utilizando SQLAlchemy?
-2. ¿Qué diferencia identificaste entre trabajar con objetos Python y escribir sentencias SQL directamente?
-3. ¿Cuál fue la principal dificultad durante el desarrollo y cómo la solucionaste?
+   1. ¿Qué aprendiste al implementar las operaciones CRUD utilizando SQLAlchemy?
+   Aprendizaje con SQLAlchemy: Facilitó enormemente la interacción con la base de datos al abstraer las sentencias SQL en clases y objetos de Python.
+
+   2. ¿Qué diferencia identificaste entre trabajar con objetos Python y escribir sentencias SQL directamente?
+   Objetos vs. SQL manual: Trabajar con objetos permite un enfoque más intuitivo, orientado al dominio del problema, reduciendo errores de sintaxis SQL y facilitando la manipulación de los datos.
+
+   3. ¿Cuál fue la principal dificultad durante el desarrollo y cómo la solucionaste?
+   Dificultades: Asegurar la correcta gestión del ciclo de vida de las sesiones mediante el uso del gestor de contexto (with Session(engine) as session:) para evitar fugas de conexiones y asegurar los commits oportunos.
+
 
 
 ## Indicaciones de documentación
