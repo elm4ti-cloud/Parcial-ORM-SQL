@@ -205,7 +205,7 @@ Debes ejecutar el programa y demostrar el funcionamiento de cada una de las oper
 ### Prueba 5. Eliminar zapato
 
 - **ID eliminado:** 1.
-- **Resultado obtenido:** Verificando la lista.
+- **Resultado obtenido:** Solo quedó el zapato con ID 2.
 
 **Evidencia:**
 
